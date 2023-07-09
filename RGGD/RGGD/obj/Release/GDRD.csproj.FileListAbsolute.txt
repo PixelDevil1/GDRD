@@ -1,0 +1,13 @@
+E:\GDRD\RGGD\RGGD\bin\Release\RGGD.exe.config
+E:\GDRD\RGGD\RGGD\bin\Release\RGGD.exe
+E:\GDRD\RGGD\RGGD\bin\Release\RGGD.pdb
+E:\GDRD\RGGD\RGGD\bin\Release\System.Numerics.Vectors.dll
+E:\GDRD\RGGD\RGGD\bin\Release\System.Numerics.Vectors.xml
+E:\GDRD\RGGD\RGGD\obj\Release\GDRD.csprojAssemblyReference.cache
+E:\GDRD\RGGD\RGGD\obj\Release\RGGD.Form1.resources
+E:\GDRD\RGGD\RGGD\obj\Release\RGGD.Properties.Resources.resources
+E:\GDRD\RGGD\RGGD\obj\Release\GDRD.csproj.GenerateResource.cache
+E:\GDRD\RGGD\RGGD\obj\Release\GDRD.csproj.CoreCompileInputs.cache
+E:\GDRD\RGGD\RGGD\obj\Release\GDRD.csproj.CopyComplete
+E:\GDRD\RGGD\RGGD\obj\Release\RGGD.exe
+E:\GDRD\RGGD\RGGD\obj\Release\RGGD.pdb

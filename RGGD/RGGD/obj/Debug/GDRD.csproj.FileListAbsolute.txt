@@ -1,0 +1,28 @@
+E:\GDRD\RGGD\RGGD\bin\Debug\RGGD.exe.config
+E:\GDRD\RGGD\RGGD\bin\Debug\RGGD.exe
+E:\GDRD\RGGD\RGGD\bin\Debug\RGGD.pdb
+E:\GDRD\RGGD\RGGD\bin\Debug\System.Numerics.Vectors.dll
+E:\GDRD\RGGD\RGGD\bin\Debug\System.Numerics.Vectors.xml
+E:\GDRD\RGGD\RGGD\obj\Debug\RGGD.Form1.resources
+E:\GDRD\RGGD\RGGD\obj\Debug\RGGD.Properties.Resources.resources
+E:\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.GenerateResource.cache
+E:\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.CoreCompileInputs.cache
+E:\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.CopyComplete
+E:\GDRD\RGGD\RGGD\obj\Debug\RGGD.exe
+E:\GDRD\RGGD\RGGD\obj\Debug\RGGD.pdb
+E:\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.AssemblyReference.cache
+E:\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.SuggestedBindingRedirects.cache
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\bin\Debug\RGGD.exe.config
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\bin\Debug\RGGD.exe
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\bin\Debug\RGGD.pdb
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.AssemblyReference.cache
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.SuggestedBindingRedirects.cache
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\RGGD.Form1.resources
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\RGGD.Properties.Resources.resources
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.GenerateResource.cache
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.CoreCompileInputs.cache
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\GDRD.csproj.CopyComplete
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\RGGD.exe
+C:\Users\petya\OneDrive\Рабочий стол\GDRD\RGGD\RGGD\obj\Debug\RGGD.pdb

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F191A8C-2623-4849-8034-44DB43132C39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RGGD</RootNamespace>
+    <AssemblyName>RGGD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pool.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Locator.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoolPoolCounters.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NWPlatedCornerWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEPlatedCornerWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWPlatedCornerWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEPlatedCornerWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NLPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NRPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SRPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WUPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EUPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EDPlatedWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenDemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrappedGreenSoul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenDemon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NLPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NLPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NLPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NLPlatedWall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NRPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NRPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NRPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrappedGreenSoul1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NWPlatedCornerWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NWPlatedCornerWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEPlatedCornerWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWPlatedCornerWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEPlatedCornerWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WUPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WUPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WUPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EUPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EUPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EUPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WDPlatedWall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EUPlatedWall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EDPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EDPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EDPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLPlatedWall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SRPlatedWall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SRPlatedWall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SRPlatedWall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SRPlatedWall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CleansingPool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[REDACTED].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenDemon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrappedRedSoul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
